@@ -16,8 +16,8 @@ extension DeviceActivityEvent.Name {
 // The Device Activity schedule represents the time bounds in which my extension will monitor for activity
 let schedule = DeviceActivitySchedule(
     // I've set my schedule to start and end at midnight
-    intervalStart: DateComponents(hour: 0, minute: 0),
-    intervalEnd: DateComponents(hour: 11, minute: 17),
+    intervalStart: DateComponents(hour: 14, minute: 29),
+    intervalEnd: DateComponents(hour: 16, minute: 30),
     // I've also set the schedule to repeat
     repeats: true
 )
@@ -25,15 +25,12 @@ let schedule = DeviceActivitySchedule(
 class MySchedule {
     static public func setSchedule() {
         print("Setting schedule...")
-        print("Hour is: ", Calendar.current.dateComponents([.hour, .minute], from: Date()).hour!)
-
         let events: [DeviceActivityEvent.Name: DeviceActivityEvent] = [
             .encouraged: DeviceActivityEvent(
-                applications: MyModel.shared.selectionToEncourage.applicationTokens,
-                threshold: DateComponents(minute: 5)
+                applications: MyModel.shared.selectionToDiscourage.applicationTokens,
+                threshold: DateComponents(second: 30)
             )
         ]
-        
         // Create a Device Activity center
         let center = DeviceActivityCenter()
         do {

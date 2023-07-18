@@ -28,6 +28,10 @@ struct ContentView: View {
         .onChange(of: model.selectionToDiscourage) { newSelection in
             MyModel.shared.setShieldRestrictions()
         }
+        .onAppear {
+//            model.store.shield.applications = nil
+//            model.store.shield.applicationCategories = nil
+        }
     }
 }
 

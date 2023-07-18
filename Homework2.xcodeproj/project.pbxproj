@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93A9EE502A6689BD00B9575E /* MyDeviceActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915EAAC26E2DED300A00692 /* MyDeviceActivityMonitor.swift */; };
 		9915EAAD26E2DED300A00692 /* MyDeviceActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915EAAC26E2DED300A00692 /* MyDeviceActivityMonitor.swift */; };
 		9915EAB126E2DED300A00692 /* MyDeviceActivityMonitor.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9915EAAA26E2DED300A00692 /* MyDeviceActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9964EA7626E29975007000D1 /* MySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7526E29975007000D1 /* MySchedule.swift */; };
@@ -234,6 +235,7 @@
 				9964EA7826E29DB7007000D1 /* MyModel.swift in Sources */,
 				9964EA7626E29975007000D1 /* MySchedule.swift in Sources */,
 				99EE9DAE26E2694100F0FB9C /* Homework2App.swift in Sources */,
+				93A9EE502A6689BD00B9575E /* MyDeviceActivityMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +256,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 47C966XSTJ;
+				DEVELOPMENT_TEAM = TN4V5K6NT6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyDeviceActivityMonitor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MyDeviceActivityMonitor;
@@ -265,7 +267,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.MyDeviceActivityMonitor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.io.MyDeviceActivityMonitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -280,7 +282,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 47C966XSTJ;
+				DEVELOPMENT_TEAM = TN4V5K6NT6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyDeviceActivityMonitor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MyDeviceActivityMonitor;
@@ -291,7 +293,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.MyDeviceActivityMonitor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.io.MyDeviceActivityMonitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -426,7 +428,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Homework2/Preview Content\"";
-				DEVELOPMENT_TEAM = 47C966XSTJ;
+				DEVELOPMENT_TEAM = TN4V5K6NT6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Homework2/Info.plist;
@@ -441,7 +443,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.io";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,7 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Homework2/Preview Content\"";
-				DEVELOPMENT_TEAM = 47C966XSTJ;
+				DEVELOPMENT_TEAM = TN4V5K6NT6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Homework2/Info.plist;
@@ -474,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.io";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

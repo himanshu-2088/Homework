@@ -29,5 +29,7 @@ class MyModel: ObservableObject {
         store.shield.applicationCategories = applications.categoryTokens.isEmpty
         ? nil
         : ShieldSettings.ActivityCategoryPolicy.specific(applications.categoryTokens)
+        
+        MySchedule.setSchedule()
     }
 }

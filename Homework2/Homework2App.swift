@@ -50,7 +50,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         
         // 2a See MyMonitor.swift
         // 2b From the main app, I need to create a Device Activity name and a Device Activity schedule
-        MySchedule.setSchedule()
+//        MySchedule.setSchedule()
         
         return true
     }

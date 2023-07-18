@@ -4,6 +4,7 @@ import ManagedSettings
 
 
 class MyDeviceActivityMonitor: DeviceActivityMonitor {
+    let store = ManagedSettingsStore()
     override func intervalDidStart(for activity: DeviceActivityName) {
         print("intervalDidStart")
         super.intervalDidStart(for: activity)
@@ -14,8 +15,10 @@ class MyDeviceActivityMonitor: DeviceActivityMonitor {
         super.intervalDidEnd(for: activity)
     }
 
-    override func eventDidReachThreshold(_ event:DeviceActivityEvent.Name,activity:DeviceActivityName){
-        print("eventDidReachThreshold")
+    override func eventDidReachThreshold(_ event: DeviceActivityEvent.Name, activity: DeviceActivityName) {
         super.eventDidReachThreshold(event, activity: activity)
+        
+        store.shield.applications = nil
+        store.shield.applicationCategories = nil
     }
 }
